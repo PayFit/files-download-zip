@@ -10,8 +10,13 @@ npm install bollywood-names
 
 # Usage
 
-var names = require('bollywood-names');
-var characterName = names.random();
-var allNames = names.all();
-var twoNames = names.random(2);
+var names = require('bollywood-names')
+
+var characterName = names.random()
+
+var allNames = names.all()
+
+var twoNames = names.random(2)
+
+
 

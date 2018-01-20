@@ -1,4 +1,4 @@
 # bollywood-names
 
-Get random star wars character names
+Get random bollywood character names
 

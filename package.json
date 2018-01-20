@@ -1,7 +1,7 @@
 {
   "name": "bollywood-names",
   "version": "0.0.0-semantically-released",
-  "description": "Get random Star Wars names",
+  "description": "Get random bollywood character names",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",

@@ -5,34 +5,17 @@
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
-<<<<<<< HEAD
-=======
-    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
-    "report-coverage": "cat ./coverage/lcov.info | codecov",
-    "start": "npm run test",
-    "watch:test": "npm t -- --watch",
-    "test": "mocha src/index.test.js --compilers js:babel-register",
-    "cover": "nyc --reporter=lcov npm t",
->>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7
     "prebuild": "rimraf dist",
     "build": "npm-run-all --parallel build:*",
     "build:main": "babel --copy-files --out-dir dist --ignore *.test.js src",
     "build:umd": "webpack --output-filename index.umd.js",
     "build:umd.min": "webpack --output-filename index.umd.min.js -p",
-<<<<<<< HEAD
     "test": "cross-env NODE_ENV=test nyc mocha",
     "watch:test": "mocha --watch",
     "lint": "eslint src",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "release": "semantic-release pre && npm publish && semantic-release post",
     "validate": "npm-run-all --parallel test lint build"
-=======
-    "validate": "npm run cover && npm run check-coverage",
-    "setup": "npm install && npm run validate",
-    "setup:fem": "git checkout FEM/10.1-docs && npm install && npm run validate && rimraf .nyc_output coverage dist .git/hooks && git checkout FEM/00-scratch",
-    "setup:egghead": "npm run setup && rimraf dist coverage && git checkout lesson/02-setting-up-github",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
->>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7
   },
   "repository": {
     "type": "git",
@@ -57,7 +40,6 @@
   "devDependencies": {
     "babel-cli": "6.11.4",
     "babel-loader": "6.2.4",
-<<<<<<< HEAD
     "babel-plugin-istanbul": "1.0.3",
     "babel-preset-es2015": "6.9.0",
     "babel-register": "6.11.6",
@@ -65,20 +47,11 @@
     "codecov": "1.0.1",
     "commitizen": "2.8.2",
     "cross-env": "2.0.0",
-=======
-    "babel-preset-es2015": "6.13.2",
-    "babel-preset-stage-2": "6.13.0",
-    "babel-register": "6.11.6",
-    "chai": "3.5.0",
-    "codecov": "1.0.1",
-    "commitizen": "2.8.5",
->>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7
     "cz-conventional-changelog": "1.1.6",
     "eslint": "3.2.0",
     "eslint-config-kentcdodds": "^9.0.0",
     "ghooks": "1.3.2",
     "json-loader": "0.5.4",
-<<<<<<< HEAD
     "mocha": "3.0.0",
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
@@ -107,26 +80,6 @@
     "require": [
       "babel-register"
     ]
-=======
-    "mocha": "3.0.1",
-    "npm-run-all": "2.3.0",
-    "nyc": "7.1.0",
-    "rimraf": "2.5.4",
-    "semantic-release": "^4.2.1",
-    "webpack": "1.13.1"
-  },
-  "engines": {
-    "node": "6.x",
-    "npm": "3.x"
-  },
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run validate"
-    },
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
->>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7
   },
   
   "babel": {

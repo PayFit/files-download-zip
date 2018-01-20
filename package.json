@@ -1,6 +1,6 @@
 {
   "name": "bollywood-names",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0",
   "description": "Get random bollywood character names",
   "main": "dist/index.js",
   "scripts": {
@@ -81,7 +81,6 @@
       "babel-register"
     ]
   },
-  
   "babel": {
     "presets": [
       "es2015"

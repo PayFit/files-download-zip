@@ -9,6 +9,7 @@ Get random star wars character names
 [![MIT License][license-badge]][LICENSE]
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
+<<<<<<< HEAD
 [![PRs Welcome][prs-badge]][prs]
 [![Code of Conduct][coc-badge]][coc]
 [![Roadmap][roadmap-badge]][roadmap]
@@ -23,6 +24,11 @@ time hard-coding `'John Doe'` again when you could use `'Count Dooku'` or
 
 This module has ~100 Star Wars character names and exposes an API for you to get a
 random one every time you call it.
+=======
+<a href="https://app.codesponsor.io/link/PKGFLnhDiFvsUA5P4kAXfiPs/kentcdodds/starwars-names" rel="nofollow"><img src="https://app.codesponsor.io/embed/PKGFLnhDiFvsUA5P4kAXfiPs/kentcdodds/starwars-names.svg" style="width: 888px; height: 68px;" alt="Sponsor" /></a>
+
+![starwars-names](other/starwars-names.gif)
+>>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7
 
 ## Installation
 
@@ -77,6 +83,7 @@ This project follows the [all-contributors](https://github.com/kentcdodds/all-co
 
 MIT
 
+<<<<<<< HEAD
 [build-badge]: https://img.shields.io/travis/kentcdodds/starwars-names.svg?style=flat-square
 [build]: https://travis-ci.org/kentcdodds/starwars-names
 [coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/starwars-names.svg?style=flat-square
@@ -97,3 +104,40 @@ MIT
 [npmcdn]: https://npmcdn.com
 [npmcdn-link]: https://npmcdn.com/starwars-names@1.6.0/dist/index.umd.js
 [npmcdn-min-link]: https://npmcdn.com/starwars-names@1.6.0/dist/index.umd.min.js
+=======
+This library was developed by [me](https://twitter.com/kentcdodds) as part of an
+[egghead.io](http://egghead.io/) series called "How to Write a JavaScript Library."
+
+I'm now also using it to give [a workshop](http://kcd.im/fem-oss) for
+[Frontend Masters](https://frontendmasters.com).
+
+### Project Setup
+
+This project assumes you have [NodeJS v6](http://nodejs.org/) or greater installed. You should
+also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
+with Node 6). You'll also need a recent version of [git](https://git-scm.com/) installed
+as well.
+
+You may have come to this project from different varying sources. There are a
+different series of branches for each workshop/course I've done. To get started with
+the project, start with this:
+
+1. [Sign up](https://github.com/join) for a GitHub Account (if you don't already have one)
+2. [Fork](https://help.github.com/articles/fork-a-repo/) this repo
+3. [Clone](https://help.github.com/articles/cloning-a-repository/) your fork
+4. In the directory you cloned the repository, run `git fetch --all`
+
+If you need help with these steps, you might check out
+[this free Egghead.io course](http://kcd.im/pull-request) which can help you get things going.
+
+Finally, based on which version of the project you're looking for (workshop, egghead, or
+Frontend Masters) you'll run one of the following commands in the cloned directory:
+
+- **Frontend Masters Workshop**: `npm run setup:fem`
+- **Egghead Course**: `npm run setup:egghead`
+
+If you get any failures at this point something is wrong and needs to be fixed. Remember,
+[Google](https://google.com) and [StackOverflow](https://stackoverflow.com) are your friends.
+
+You might find it helpful to see a list of the available branches. Run: `git branch` for that.
+>>>>>>> 12805ee6ba2db911037422c2ac2184d6886b7ea7

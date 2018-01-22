@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravinaenu/bollywood-names.git"
+    "url": "git+https://github.com/ravinaenu/files-download-zip.git"
   },
   "keywords": [
     "download a zip",
@@ -30,9 +30,9 @@
   "author": "Ravina Pathak",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ravinaenu/bollywood-names/issues"
+    "url": "https://github.com/ravinaenu/files-download-zip/issues"
   },
-  "homepage": "https://github.com/ravinaenu/bollywood-names#readme",
+  "homepage": "https://github.com/ravinaenu/files-download-zip#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "bluebird": "^3.5.1",

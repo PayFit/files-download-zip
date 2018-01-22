@@ -1,7 +1,6 @@
 {
-  "name": "bollywood-names",
-  "version": "2.0.1",
-  "description": "Get random bollywood character names",
+  "name": "files-download-zip",
+  "version": "3.0.1",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -22,8 +21,8 @@
     "url": "git+https://github.com/ravinaenu/bollywood-names.git"
   },
   "keywords": [
-    "random",
-    "star wars"
+    "download a zip",
+    "image download"
   ],
   "files": [
     "dist"
@@ -35,31 +34,43 @@
   },
   "homepage": "https://github.com/ravinaenu/bollywood-names#readme",
   "dependencies": {
+    "axios": "^0.17.1",
+    "bluebird": "^3.5.1",
+    "file-saver": "^1.3.3",
+    "jquery": "^3.3.1",
+    "jszip": "^3.1.5",
     "unique-random-array": "1.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.11.4",
-    "babel-loader": "6.2.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.2.4",
     "babel-plugin-istanbul": "1.0.3",
-    "babel-preset-es2015": "6.9.0",
+    "babel-preset-es2015": "^6.9.0",
     "babel-register": "6.11.6",
     "chai": "3.5.0",
     "codecov": "1.0.1",
     "commitizen": "2.8.2",
     "cross-env": "2.0.0",
+    "css-loader": "^0.28.9",
     "cz-conventional-changelog": "1.1.6",
     "eslint": "3.2.0",
     "eslint-config-kentcdodds": "^9.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "ghooks": "1.3.2",
+    "html-webpack-plugin": "^2.30.1",
     "json-loader": "0.5.4",
     "mocha": "3.0.0",
     "npm-run-all": "2.3.0",
     "nyc": "7.1.0",
     "opt-cli": "1.5.1",
     "rimraf": "2.5.4",
+    "sass-loader": "^6.0.6",
     "semantic-release": "4.3.5",
+    "style-loader": "^0.19.1",
     "validate-commit-msg": "2.6.1",
-    "webpack": "1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^2.11.1"
   },
   "nyc": {
     "all": true,

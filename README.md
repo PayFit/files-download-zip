@@ -1,4 +1,24 @@
-# bollywood-names
+# Download Images as a Zip file
 
-Get random bollywood character names
+
+This library  can be used to download images as a zip file. 
+You need to specify images to download in an array.
+
+Example Code:
+
+  var imgDataArray =  [
+     
+  "http://www.bollywoodlife.com/wp-content/uploads/2014/12/shenaz-treasurywala-111214.jpg"
+   
+  ];
+
+  var zipFileName = 'imagesZip';
+
+   downloadImagesAsZip.execute(imgDataArray, zipFileName, function() {
+
+    alert('Done');
+   
+  });
+
+
 

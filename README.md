@@ -2,7 +2,7 @@
 
 
 This library is used to download images in bulk as a zip file. 
-You need to specify an array of images to downloa. It will create a zip file for it.
+You need to specify an array of images URL to download. The library will fetch all the images and will create a zip file.
 
 
 
